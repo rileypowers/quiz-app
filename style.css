@@ -1,5 +1,85 @@
+
+html { 
+  background: url(https://image.freepik.com/free-photo/eggs-healthy-vegetables-blue-colored-background_23-2147885856.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heady {
+  width: 1200x;
+  text-align: center;
+}
+
+#knife {
+  width: 1700px;
+  height: auto;
+  display: relative;
+  /* margin-left: auto;
+  margin-right:   */
+  /* width: 99%; */
+  position: absolute;
+  top: 375px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  /* display: flex;
+  justify-content: center; */
+}
+
+.title {
+  /* display: flex;
+  justify-content: center; */
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .my-header {
-  border: solid 3px black;
+  font-size: 40px;
+  box-sizing: border-box;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  display: inline-block;
+  position: unset;
+  font-family: 'Source Serif Pro', serif;
+
+}
+
+#question-box {
+  /* border: solid 3px black; 
+  border-radius: 10px; 
+  background-color: aliceblue;
+  box-sizing: border-box; */
+  /* display: flex; 
+  align-self: center; 
+  align-items: center;
+   */
+  position: relative;
+  bottom: 400px;
+  /* top: 50%; */
+}
+
+.blurb {
+  /* margin-right: 20px;
+  margin-left: 20px; */
+  /* justify-content: center; */
+  z-index: 1000;
+  box-sizing: border-box;
+  position: absoloute;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  text-shadow: 1px 0px 0px #ccc;
+}
+
+.start-button-container {
   display: flex;
   justify-content: center;
+  text-size: 24px;
+}
+
+.btn{
+  text-size: 18px;
 }
